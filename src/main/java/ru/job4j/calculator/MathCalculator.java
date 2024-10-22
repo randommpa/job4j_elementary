@@ -6,10 +6,12 @@ public class MathCalculator {
         return MathFunction.sum(first, second)
                 + MathFunction.multiply(first, second);
     }
+
     public static double subAndDiv(double first, double second) {
         return MathFunction.subtract(first, second)
                 + MathFunction.division(first, second);
     }
+
     public static double sumAll(double first, double second) {
         return MathFunction.sum(first, second)
                 + MathFunction.multiply(first, second)
